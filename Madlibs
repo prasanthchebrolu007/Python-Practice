@@ -1,0 +1,23 @@
+# string concatenation aka bringing strings together
+# suppose we want to create a string that says Subscribe to  Youtube channel  ______
+
+Program 1
+
+Youtubechannel = "ABCD" # string
+
+# A few ways to do this
+
+print ("Subscribe to Youtube Channel " + Youtubechannel )
+print ("Subscribe to Youtube Channel {}".format(Youtubechannel))
+print (f"Subscribe to Youtube Channel {Youtubechannel}")
+
+###################################################################
+
+Program 2
+
+adjective = input ("adjective: ")
+verb = input ("verb1: ")
+verb = input ("verb2: ")
+madlib = f"Computer Programming is so {adjective}, It makes me so excited all the time because it is so {verb},Also i like to have {verb}"
+
+print (madlib)
